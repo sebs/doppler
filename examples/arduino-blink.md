@@ -2,9 +2,17 @@
 
 This example demonstrates how to blink an on-board LED using an Arduino. It's a basic example to illustrate digital output control.
 
+```mermaid
+graph LR;
+    A[Setup Function] -->|Initialize LED| B(Loop Function)
+    B --> C{LED On}
+    C -->|Wait 1 second| D{LED Off}
+    D -->|Wait 1 second| C
+```
+
 #### Requirements and Setup
 - Hardware: doppler board
-- Software: Arduino Sfotware
+- Software: Arduino Software
 
 #### Implementation
 
