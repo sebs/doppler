@@ -30,8 +30,6 @@ void loop() {
 }
 ```
 
-Certainly, here's an extended explanation for each function in the Arduino code:
-
 1. **The `setup` Function:**
    - Purpose: This function is called once when the Arduino first starts up or is reset. It's used for initial setup procedures.
    - In Your Code: Configures the LED pin as an output. This is done by the line `pinMode(LED_BUILTIN, OUTPUT);`, which sets the built-in LED pin to behave as an output.
